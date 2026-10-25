@@ -1,0 +1,140 @@
+backend:
+  name: github
+  repo: VOTRE_UTILISATEUR/VOTRE_DEPOT      # à remplacer, ex. boubacar/portfolio
+  branch: main
+  base_url: https://VOTRE-WORKER.workers.dev   # adresse du relais de connexion (voir GUIDE.md)
+locale: fr
+media_folder: images/uploads
+public_folder: images/uploads
+publish_mode: simple
+collections:
+  - name: site
+    label: Mon portfolio
+    files:
+      - name: contenu
+        label: Contenu du site
+        file: content/site.json
+        format: json
+        fields:
+          - {label: Logo, name: logo, widget: image, required: false}
+          - {label: Ma photo (section À propos), name: photo, widget: image, required: false}
+          - label: Accueil
+            name: hero
+            widget: object
+            fields:
+              - {label: Présentation courte, name: who, widget: string}
+              - {label: Titre principal, name: titre, widget: string}
+              - {label: Mots qui défilent, name: mots, widget: list, required: false, field: {label: Mot, name: mot, widget: string}}
+              - {label: Texte d’introduction, name: texte, widget: text}
+          - {label: Points de confiance (bandeau), name: confiance, widget: list, required: false, field: {label: Point, name: p, widget: string}}
+          - label: Sections du site (ajouter, supprimer, réordonner)
+            name: sections
+            widget: list
+            typeKey: type
+            types:
+              - label: Services (onglets)
+                name: services
+                widget: object
+                summary: "{{fields.titre}}"
+                fields:
+                  - {label: Nom dans le menu (vide = absent du menu), name: menu, widget: string, required: false}
+                  - {label: Titre, name: titre, widget: string}
+                  - {label: Introduction, name: intro, widget: text, required: false}
+                  - label: Onglets
+                    name: groupes
+                    widget: list
+                    fields:
+                      - {label: Nom de l’onglet, name: nom, widget: string}
+                      - label: Services
+                        name: items
+                        widget: list
+                        fields:
+                          - {label: Titre, name: titre, widget: string}
+                          - {label: Description, name: texte, widget: text}
+              - label: Réalisations (images ou carrousels)
+                name: realisations
+                widget: object
+                summary: "{{fields.titre}}"
+                fields:
+                  - {label: Nom dans le menu (vide = absent du menu), name: menu, widget: string, required: false}
+                  - {label: Titre, name: titre, widget: string}
+                  - {label: Introduction, name: intro, widget: text, required: false}
+                  - label: Réalisations
+                    name: items
+                    widget: list
+                    summary: "{{fields.titre}}"
+                    fields:
+                      - {label: Titre, name: titre, widget: string}
+                      - {label: Détail, name: detail, widget: string, required: false}
+                      - {label: "Images (1 = image seule, plusieurs = carrousel)", name: images, widget: list, required: false, field: {label: Image, name: image, widget: image}}
+              - label: À propos
+                name: apropos
+                widget: object
+                summary: "{{fields.titre}}"
+                fields:
+                  - {label: Nom dans le menu (vide = absent du menu), name: menu, widget: string, required: false}
+                  - {label: Titre, name: titre, widget: string}
+                  - {label: Paragraphes, name: paragraphes, widget: list, required: false, field: {label: Paragraphe, name: p, widget: text}}
+                  - label: Points forts
+                    name: piliers
+                    widget: list
+                    required: false
+                    summary: "{{fields.titre}}"
+                    fields:
+                      - {label: Titre, name: titre, widget: string}
+                      - {label: Texte, name: texte, widget: text}
+              - label: Méthode (étapes numérotées)
+                name: methode
+                widget: object
+                summary: "{{fields.titre}}"
+                fields:
+                  - {label: Nom dans le menu (vide = absent du menu), name: menu, widget: string, required: false}
+                  - {label: Titre, name: titre, widget: string}
+                  - {label: Introduction, name: intro, widget: text, required: false}
+                  - label: Étapes
+                    name: etapes
+                    widget: list
+                    summary: "{{fields.titre}}"
+                    fields:
+                      - {label: Titre, name: titre, widget: string}
+                      - {label: Texte, name: texte, widget: text}
+              - label: Tarifs
+                name: tarifs
+                widget: object
+                summary: "{{fields.titre}}"
+                fields:
+                  - {label: Nom dans le menu (vide = absent du menu), name: menu, widget: string, required: false}
+                  - {label: Titre, name: titre, widget: string}
+                  - {label: Texte, name: texte, widget: text}
+                  - {label: Points (liste à cocher), name: points, widget: list, required: false, field: {label: Point, name: p, widget: string}}
+              - label: Section libre (texte + images)
+                name: texte
+                widget: object
+                summary: "{{fields.titre}}"
+                fields:
+                  - {label: Nom dans le menu (vide = absent du menu), name: menu, widget: string, required: false}
+                  - {label: Titre, name: titre, widget: string}
+                  - {label: Texte (séparez les paragraphes par une ligne vide), name: texte, widget: text, required: false}
+                  - {label: "Images (1 = image seule, plusieurs = carrousel)", name: images, widget: list, required: false, field: {label: Image, name: image, widget: image}}
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - {label: Titre, name: titre, widget: string}
+              - {label: Texte, name: intro, widget: text}
+              - {label: "WhatsApp (indicatif sans + ni espaces)", name: whatsapp, widget: string, required: false}
+              - {label: Email, name: email, widget: string}
+              - label: Téléphones
+                name: telephones
+                widget: list
+                required: false
+                fields:
+                  - {label: Affichage (ex. 629 24 00 23), name: txt, widget: string}
+                  - {label: Numéro (ex. +224629240023), name: tel, widget: string}
+              - label: Réseaux sociaux (adresses complètes)
+                name: reseaux
+                widget: object
+                fields:
+                  - {label: Facebook, name: facebook, widget: string, required: false}
+                  - {label: TikTok, name: tiktok, widget: string, required: false}
+                  - {label: LinkedIn, name: linkedin, widget: string, required: false}
