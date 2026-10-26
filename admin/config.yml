@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: VOTRE_UTILISATEUR/VOTRE_DEPOT      # à remplacer, ex. boubacar/portfolio
+  repo: boubacarkahndiallo/portfolio
   branch: main
-  base_url: https://VOTRE-WORKER.workers.dev   # adresse du relais de connexion (voir GUIDE.md)
+  base_url: https://bkd-auth.boubacarkahndiallo.workers.dev
 locale: fr
 media_folder: images/uploads
 public_folder: images/uploads
