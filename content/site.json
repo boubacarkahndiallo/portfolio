@@ -112,10 +112,14 @@
       "intro": "Chaque projet part d’un besoin précis et d’une identité à respecter.",
       "items": [
         {
-          "titre": "Carrousels LinkedIn",
+          "titre": "Carrousels",
           "detail": "Réseau et sécurité, en français",
           "images": [
-            "images/uploads/00-mécanique_.jpg"
+            "images/uploads/00-mécanique_.jpg",
+            "images/uploads/01-piitch-vidéo_.png",
+            "images/uploads/02-demi-finale.png",
+            "images/uploads/03-grand-finale.png",
+            "images/uploads/04-bourses.png"
           ]
         },
         {
