@@ -128,7 +128,9 @@
         {
           "titre": "Affiches et bannières",
           "detail": "Événements et promotions",
-          "images": []
+          "images": [
+            "images/uploads/01-piitch-vidéo_.png"
+          ]
         },
         {
           "titre": "Flyers et cartes de visite",
