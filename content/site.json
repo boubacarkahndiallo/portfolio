@@ -114,12 +114,16 @@
         {
           "titre": "Carrousels LinkedIn",
           "detail": "Réseau et sécurité, en français",
-          "images": []
+          "images": [
+            "images/uploads/00-mécanique_.jpg"
+          ]
         },
         {
           "titre": "Logos et identités",
           "detail": "Création sur mesure",
-          "images": []
+          "images": [
+            "images/uploads/logo-faadé-marche-vers-l’horizon.png"
+          ]
         },
         {
           "titre": "Affiches et bannières",
@@ -129,7 +133,9 @@
         {
           "titre": "Flyers et cartes de visite",
           "detail": "Supports imprimés",
-          "images": []
+          "images": [
+            "images/uploads/lancement-officiel.jpg"
+          ]
         }
       ]
     },
