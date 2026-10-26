@@ -1,44 +1,217 @@
 {
-"logo":"images/logo.png",
-"photo":"",
-"hero":{"who":"Boubacar Kahn Diallo, ingénieur informaticien","titre":"Design, logiciels et réseau pour les entreprises.","mots":["logos et identités visuelles","sites web dynamiques","applications mobiles et desktop","réseaux sécurisés"],"texte":"BKD conçoit vos supports visuels, développe vos sites, plateformes et applications, et sécurise votre réseau. Un travail net, livré dans les délais, à un tarif abordable."},
-"confiance":["Première proposition gratuite","Contact direct par WhatsApp ou téléphone","Délais annoncés et respectés"],
-"sections":[
-{"type":"services","menu":"Services","titre":"Ce que je réalise pour vous","intro":"Trois métiers, un seul interlocuteur : ce que vos clients voient, les outils numériques qui font tourner votre activité, et le réseau qui les protège. Vous gardez la main sur vos pages et vos publications.","groupes":[
-{"nom":"Design","items":[
-{"titre":"Logo et identité visuelle","texte":"Un logo lisible, des couleurs et une typographie cohérentes, avec les fichiers prêts pour l’impression et le web."},
-{"titre":"Affiches et flyers","texte":"Événements, promotions, ouvertures, recrutements : un message clair qu’on comprend en deux secondes."},
-{"titre":"Bannières et visuels pour les réseaux","texte":"Formats adaptés à Facebook, LinkedIn, Instagram et WhatsApp, avec une même signature visuelle."},
-{"titre":"Carrousels et infographies","texte":"Un sujet technique ou commercial découpé en pages simples, pour informer et donner envie de lire."},
-{"titre":"Cartes de visite et documents","texte":"Plaquettes, brochures, présentations et en-têtes de documents pour une image professionnelle."}]},
-{"nom":"Développement","items":[
-{"titre":"Sites web de présentation","texte":"Un site simple qui présente votre activité et facilite le contact par téléphone ou WhatsApp."},
-{"titre":"Sites web dynamiques et plateformes","texte":"Sites avec gestion de contenu, espaces utilisateurs, tableaux de bord et outils métier, conçus selon votre activité."},
-{"titre":"Applications mobiles","texte":"Une application pour le téléphone de vos clients ou de vos équipes, de la maquette à la mise en service."},
-{"titre":"Applications desktop","texte":"Des logiciels pour ordinateur adaptés à votre façon de travailler : gestion, suivi, saisie, rapports."}]},
-{"nom":"Réseau et sécurité","items":[
-{"titre":"Conception et déploiement de réseaux","texte":"Étude de vos besoins, plan d’adressage, segmentation en VLAN, routage inter-VLAN et OSPF, installation et configuration des équipements Cisco, du bureau au multi-sites."},
-{"titre":"Haute disponibilité et redondance","texte":"Un réseau qui ne s’arrête pas quand un équipement tombe en panne : HSRP, EtherChannel, Spanning Tree et liens de secours."},
-{"titre":"Sécurisation des switchs et des accès","texte":"Port Security, DHCP Snooping, listes de contrôle d’accès (ACL), désactivation des ports inutilisés et accès d’administration protégés."},
-{"titre":"Interconnexion de sites et accès distants","texte":"Relier vos agences et vos équipes en télétravail de façon sécurisée, avec des tunnels VPN et un contrôle des accès."},
-{"titre":"Wi-Fi d’entreprise","texte":"Couverture adaptée à vos locaux, réseaux séparés pour le personnel et les visiteurs, et authentification sécurisée."},
-{"titre":"Audit et diagnostic","texte":"Analyse de votre réseau existant, détection des failles et des points de blocage, puis rapport clair avec les corrections à apporter par priorité."},
-{"titre":"Documentation et accompagnement","texte":"Schémas du réseau, configurations sauvegardées et formation de vos équipes pour que vous restiez autonomes après la mise en service."}]}]},
-{"type":"realisations","menu":"Réalisations","titre":"Un aperçu de mon travail","intro":"Chaque projet part d’un besoin précis et d’une identité à respecter.","items":[
-{"titre":"Carrousels LinkedIn","detail":"Réseau et sécurité, en français","images":[]},
-{"titre":"Logos et identités","detail":"Création sur mesure","images":[]},
-{"titre":"Affiches et bannières","detail":"Événements et promotions","images":[]},
-{"titre":"Flyers et cartes de visite","detail":"Supports imprimés","images":[]}]},
-{"type":"apropos","menu":"À propos","titre":"Un ingénieur derrière chaque projet","paragraphes":["Je suis Boubacar Kahn Diallo, ingénieur informaticien spécialisé en réseau et sécurité. Avec BKD, je mets cette expertise au service des entreprises : des supports visuels soignés, des sites et applications sur mesure, et des réseaux fiables et sécurisés.","Je partage aussi mes connaissances dans ces trois domaines sur mes pages Facebook, TikTok et LinkedIn."],"piliers":[
-{"titre":"Expertise","texte":"Une maîtrise technique du réseau, de la sécurité et du développement."},
-{"titre":"Innovation","texte":"Des solutions modernes, adaptées à votre activité."},
-{"titre":"Impact","texte":"Des résultats visibles : image crédible, outils utiles, réseau protégé."}]},
-{"type":"methode","menu":"Méthode","titre":"Comment nous travaillons","intro":"Un déroulement simple, sans surprise, avec votre validation à chaque étape.","etapes":[
-{"titre":"Vous m’expliquez le besoin","texte":"Activité, public visé, message, couleurs ou logo existants."},
-{"titre":"Je vous propose une première version","texte":"Gratuitement et sans engagement, pour que vous voyiez le rendu."},
-{"titre":"Nous ajustons ensemble","texte":"Vos retours sont pris en compte jusqu’à ce que le résultat vous convienne."},
-{"titre":"Je livre votre projet","texte":"Fichiers prêts pour l’impression et le web, ou mise en service, dans le délai convenu."}]},
-{"type":"tarifs","menu":"Tarifs","titre":"Un devis clair avant de commencer","texte":"Mes prix sont pensés pour les petites et moyennes entreprises. Vous savez ce que vous payez avant le début du travail, et rien n’est ajouté après.","points":["Devis écrit et gratuit","Prix adaptés à la taille de votre entreprise","Aucun frais caché","Retouches incluses selon le devis"]}
-],
-"contact":{"titre":"Parlons de votre projet","intro":"Décrivez-moi votre besoin en quelques lignes. Je vous réponds avec une proposition adaptée.","whatsapp":"224629240023","email":"aboubakrprestation@gmail.com","telephones":[{"txt":"629 24 00 23","tel":"+224629240023"},{"txt":"621 55 47 84","tel":"+224621554784"}],"reseaux":{"facebook":"https://www.facebook.com/bkdsolution","tiktok":"https://www.tiktok.com/@boubacarkahndiallo","linkedin":"https://www.linkedin.com/in/boubacar-kahn-diallo-a4049822a/"}}
+  "logo": "images/uploads/logo.png",
+  "photo": "images/uploads/img-20260822-wa0028.jpg",
+  "hero": {
+    "who": "Boubacar Kahn Diallo, ingénieur informaticien",
+    "titre": "Design, logiciels et réseau pour les entreprises.",
+    "mots": [
+      "logos et identités visuelles",
+      "sites web dynamiques",
+      "applications mobiles et desktop",
+      "réseaux sécurisés"
+    ],
+    "texte": "BKD conçoit vos supports visuels, développe vos sites, plateformes et applications, et sécurise votre réseau. Un travail net, livré dans les délais, à un tarif abordable."
+  },
+  "confiance": [
+    "Première proposition gratuite",
+    "Contact direct par WhatsApp ou téléphone",
+    "Délais annoncés et respectés"
+  ],
+  "sections": [
+    {
+      "type": "services",
+      "menu": "Services",
+      "titre": "Ce que je réalise pour vous",
+      "intro": "Trois métiers, un seul interlocuteur : ce que vos clients voient, les outils numériques qui font tourner votre activité, et le réseau qui les protège. Vous gardez la main sur vos pages et vos publications.",
+      "groupes": [
+        {
+          "nom": "Design",
+          "items": [
+            {
+              "titre": "Logo et identité visuelle",
+              "texte": "Un logo lisible, des couleurs et une typographie cohérentes, avec les fichiers prêts pour l’impression et le web."
+            },
+            {
+              "titre": "Affiches et flyers",
+              "texte": "Événements, promotions, ouvertures, recrutements : un message clair qu’on comprend en deux secondes."
+            },
+            {
+              "titre": "Bannières et visuels pour les réseaux",
+              "texte": "Formats adaptés à Facebook, LinkedIn, Instagram et WhatsApp, avec une même signature visuelle."
+            },
+            {
+              "titre": "Carrousels et infographies",
+              "texte": "Un sujet technique ou commercial découpé en pages simples, pour informer et donner envie de lire."
+            },
+            {
+              "titre": "Cartes de visite et documents",
+              "texte": "Plaquettes, brochures, présentations et en-têtes de documents pour une image professionnelle."
+            }
+          ]
+        },
+        {
+          "nom": "Développement",
+          "items": [
+            {
+              "titre": "Sites web de présentation",
+              "texte": "Un site simple qui présente votre activité et facilite le contact par téléphone ou WhatsApp."
+            },
+            {
+              "titre": "Sites web dynamiques et plateformes",
+              "texte": "Sites avec gestion de contenu, espaces utilisateurs, tableaux de bord et outils métier, conçus selon votre activité."
+            },
+            {
+              "titre": "Applications mobiles",
+              "texte": "Une application pour le téléphone de vos clients ou de vos équipes, de la maquette à la mise en service."
+            },
+            {
+              "titre": "Applications desktop",
+              "texte": "Des logiciels pour ordinateur adaptés à votre façon de travailler : gestion, suivi, saisie, rapports."
+            }
+          ]
+        },
+        {
+          "nom": "Réseau et sécurité",
+          "items": [
+            {
+              "titre": "Conception et déploiement de réseaux",
+              "texte": "Étude de vos besoins, plan d’adressage, segmentation en VLAN, routage inter-VLAN et OSPF, installation et configuration des équipements Cisco, du bureau au multi-sites."
+            },
+            {
+              "titre": "Haute disponibilité et redondance",
+              "texte": "Un réseau qui ne s’arrête pas quand un équipement tombe en panne : HSRP, EtherChannel, Spanning Tree et liens de secours."
+            },
+            {
+              "titre": "Sécurisation des switchs et des accès",
+              "texte": "Port Security, DHCP Snooping, listes de contrôle d’accès (ACL), désactivation des ports inutilisés et accès d’administration protégés."
+            },
+            {
+              "titre": "Interconnexion de sites et accès distants",
+              "texte": "Relier vos agences et vos équipes en télétravail de façon sécurisée, avec des tunnels VPN et un contrôle des accès."
+            },
+            {
+              "titre": "Wi-Fi d’entreprise",
+              "texte": "Couverture adaptée à vos locaux, réseaux séparés pour le personnel et les visiteurs, et authentification sécurisée."
+            },
+            {
+              "titre": "Audit et diagnostic",
+              "texte": "Analyse de votre réseau existant, détection des failles et des points de blocage, puis rapport clair avec les corrections à apporter par priorité."
+            },
+            {
+              "titre": "Documentation et accompagnement",
+              "texte": "Schémas du réseau, configurations sauvegardées et formation de vos équipes pour que vous restiez autonomes après la mise en service."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "realisations",
+      "menu": "Réalisations",
+      "titre": "Un aperçu de mon travail",
+      "intro": "Chaque projet part d’un besoin précis et d’une identité à respecter.",
+      "items": [
+        {
+          "titre": "Carrousels LinkedIn",
+          "detail": "Réseau et sécurité, en français",
+          "images": []
+        },
+        {
+          "titre": "Logos et identités",
+          "detail": "Création sur mesure",
+          "images": []
+        },
+        {
+          "titre": "Affiches et bannières",
+          "detail": "Événements et promotions",
+          "images": []
+        },
+        {
+          "titre": "Flyers et cartes de visite",
+          "detail": "Supports imprimés",
+          "images": []
+        }
+      ]
+    },
+    {
+      "type": "apropos",
+      "menu": "À propos",
+      "titre": "Un ingénieur derrière chaque projet",
+      "paragraphes": [
+        "Je suis Boubacar Kahn Diallo, ingénieur informaticien spécialisé en réseau et sécurité. Avec BKD, je mets cette expertise au service des entreprises : des supports visuels soignés, des sites et applications sur mesure, et des réseaux fiables et sécurisés.",
+        "Je partage aussi mes connaissances dans ces trois domaines sur mes pages Facebook, TikTok et LinkedIn."
+      ],
+      "piliers": [
+        {
+          "titre": "Expertise",
+          "texte": "Une maîtrise technique du réseau, de la sécurité et du développement."
+        },
+        {
+          "titre": "Innovation",
+          "texte": "Des solutions modernes, adaptées à votre activité."
+        },
+        {
+          "titre": "Impact",
+          "texte": "Des résultats visibles : image crédible, outils utiles, réseau protégé."
+        }
+      ]
+    },
+    {
+      "type": "methode",
+      "menu": "Méthode",
+      "titre": "Comment nous travaillons",
+      "intro": "Un déroulement simple, sans surprise, avec votre validation à chaque étape.",
+      "etapes": [
+        {
+          "titre": "Vous m’expliquez le besoin",
+          "texte": "Activité, public visé, message, couleurs ou logo existants."
+        },
+        {
+          "titre": "Je vous propose une première version",
+          "texte": "Gratuitement et sans engagement, pour que vous voyiez le rendu."
+        },
+        {
+          "titre": "Nous ajustons ensemble",
+          "texte": "Vos retours sont pris en compte jusqu’à ce que le résultat vous convienne."
+        },
+        {
+          "titre": "Je livre votre projet",
+          "texte": "Fichiers prêts pour l’impression et le web, ou mise en service, dans le délai convenu."
+        }
+      ]
+    },
+    {
+      "type": "tarifs",
+      "menu": "Tarifs",
+      "titre": "Un devis clair avant de commencer",
+      "texte": "Mes prix sont pensés pour les petites et moyennes entreprises. Vous savez ce que vous payez avant le début du travail, et rien n’est ajouté après.",
+      "points": [
+        "Devis écrit et gratuit",
+        "Prix adaptés à la taille de votre entreprise",
+        "Aucun frais caché",
+        "Retouches incluses selon le devis"
+      ]
+    }
+  ],
+  "contact": {
+    "titre": "Parlons de votre projet",
+    "intro": "Décrivez-moi votre besoin en quelques lignes. Je vous réponds avec une proposition adaptée.",
+    "whatsapp": "224629240023",
+    "email": "aboubakrprestation@gmail.com",
+    "telephones": [
+      {
+        "txt": "629 24 00 23",
+        "tel": "+224629240023"
+      },
+      {
+        "txt": "621 55 47 84",
+        "tel": "+224621554784"
+      }
+    ],
+    "reseaux": {
+      "facebook": "https://www.facebook.com/bkdsolution",
+      "tiktok": "https://www.tiktok.com/@boubacarkahndiallo",
+      "linkedin": "https://www.linkedin.com/in/boubacar-kahn-diallo-a4049822a/"
+    }
+  }
 }
