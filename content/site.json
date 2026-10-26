@@ -126,11 +126,13 @@
           "titre": "Logos et identités",
           "detail": "Création sur mesure",
           "images": [
-            "images/uploads/logo-faadé-marche-vers-l’horizon.png"
+            "images/uploads/logo-faadé-marche-vers-l’horizon.png",
+            "images/uploads/logo.png",
+            "images/uploads/359467148_11459384.png"
           ]
         },
         {
-          "titre": "Affiches et bannières",
+          "titre": "Affiches",
           "detail": "Événements et promotions",
           "images": [
             "images/uploads/01-piitch-vidéo_.png"
@@ -141,6 +143,16 @@
           "detail": "Supports imprimés",
           "images": [
             "images/uploads/lancement-officiel.jpg"
+          ]
+        },
+        {
+          "titre": "Bannières et visuels publicitaires",
+          "detail": "Réseaux sociaux, couvertures de page, campagnes",
+          "images": [
+            "images/uploads/fb-02.jpg",
+            "images/uploads/fb-01.jpg",
+            "images/uploads/banner-1.jpg",
+            "images/uploads/banner-2.jpg"
           ]
         }
       ]
