@@ -1,6 +1,6 @@
 {
   "logo": "images/uploads/logo.png",
-  "photo": "images/uploads/logo.png",
+  "photo": "images/uploads/bkd-logo.jpeg",
   "hero": {
     "who": "BKD · Expertise · Innovation · Impact",
     "titre": "Une image forte.\nDes outils sur mesure.\nUn réseau protégé.",
@@ -125,7 +125,7 @@
       "items": [
         {
           "titre": "Carrousels LinkedIn",
-          "detail": "Réseau et sécurité, en français",
+          "detail": "Carrousels LinkedIn adaptés à l’identité de chaque marque.",
           "images": [
             "images/uploads/00-mécanique_.jpg",
             "images/uploads/01-piitch-vidéo_.png",
